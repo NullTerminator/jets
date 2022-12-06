@@ -61,8 +61,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "shotgun"
   spec.add_dependency "text-table"
   spec.add_dependency "thor"
+  spec.add_dependency "timeout"
   spec.add_dependency "zeitwerk", ">= 2.6.0"
-
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "byebug"
   spec.add_development_dependency "rake"
